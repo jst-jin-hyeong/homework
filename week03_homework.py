@@ -13,4 +13,5 @@ for tr in trs:
     rank = tr.select_one('').text[0:2].strip()
     title = tr.select_one('').text.strip()
     artist = tr.select_one('').text
+    print("!!!!!")
     print(rank, title, artist)
